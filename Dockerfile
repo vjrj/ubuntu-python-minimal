@@ -6,4 +6,4 @@ ENV SHELL /bin/bash
 
 # Install initial dependencies
 RUN apt-get -y update && \
-    apt-get install -y -q python-minimal
+    apt-get install -y -q python-minimal sudo
